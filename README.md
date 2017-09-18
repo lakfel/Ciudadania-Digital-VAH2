@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# Visual Analytics
 
-You can use the [editor on GitHub](https://github.com/lakfel/Ciudadania-Digital-VAH2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Esta página hace parte de un trabajo asignado en la materia Visual Analytics de la [Universidad de los Andes](www.uniandes.edu.co) para el semestre 2017_20.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Programa Ciudadanía Digital
 
-### Markdown
+El Ministerio ha establecido como parte del Plan Vive Digital, una estrategia nacional de apropiación en TIC enfocada hacia el desarrollo de capacidades y competencias para el uso de TIC dirigida a estudiantes, profesionales, trabajadores de todos los sectores de la economía, y la comunidad en general. Para tal fin, se utilizan los estándares de la OCDE para diagnosticar y monitorear las habilidades TIC de la población, buscando ser más competitivos a nivel nacional y estar a la vanguardia en los estándares internacionales.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+"Ciudadanía Digital" es una estrategia orientada al desarrollo de capacidades y competencias digitales en los usuarios que cuentan con un nivel básico, intermedio y avanzado de conocimientos en el uso de las TIC.
 
-```markdown
-Syntax highlighted code block
+En "Ciudadanía Digital" las capacidades y competencias digitales se certifican una vez se comprueba el entendimiento y la apropiación de las mismas, mediante pruebas de análisis que permiten establecer el ortorgamiento por parte del Ministerio TIC de dicha certitifcación.
 
-# Header 1
-## Header 2
-### Header 3
+Para más iformación puede dirigirse a la página del programa [aquí](http://www.ciudadaniadigital.gov.co/627/w3-propertyvalue-12324.html)
 
-- Bulleted
-- List
+# Análisis
 
-1. Numbered
-2. List
+Se propone presentar un análisis demográfico de los perfiles de personas que acceden a los diferentes cursos ofrecidos en el programa **Ciudadanía digital** a partir de datos adquiridos en la página de [Datos abiertos](https://www.datos.gov.co/) del gobierno colombiano.
 
-**Bold** and _Italic_ and `Code` text
+## Datos (What)
 
-[Link](url) and ![Image](src)
-```
+El set de datos se puede encontrar [aquí](https://www.datos.gov.co/Ciencia-Tecnolog-a-e-Innovaci-n/Indicadores-A-o-2016-2017-Ciudadan-a-Digital/d2v8-vpdg). Cada fila tiene la información sobre una persona que toma un curso; sus datos demográficos y los datos de su participación.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- **Tipo:** Tabla
+- **Items:** 12700
+- **Atributos:**
+    - Año (Ordinales, secuencial)
+    - Meses(Ordinales, cíclico)
+    - ID Kiosco VD (Ordinales, secuenciales)
+    - Departamento (Categórico)
+    - Municipio (Categórico)
+    - Edad (Ordinales ordenados)
+    - Grupo étnico (Categórico)
+    - Nivel de estudios (Categórico)
+    - Género (Categórico)
+    - Estrato (Ordinal, secuencial)
+    - Habita en sector (Categórico)
+    - Ocupacion (Categórico)
+    - Situación Particular (Categórico)
+    - Nota Final Examen (Ordinal, secuencial)
+    - Curso (Categórico)
+    - Certificado    (Categórico)
+    - Fecha Inscripción (Ordinales, secuencial)
+    - Fecha Certificado (Ordinales, secuencial)
 
-### Jekyll Themes
+## Why
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lakfel/Ciudadania-Digital-VAH2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Identificar el perfil de personas que más acceden a cursos en línea y que aprueban, basado en localización geográfica, edad, genero y ocupación.
+- Comparar el desempeño de las personas de diferentes ocupaciones y niveles de estudio en los exámenes finales.
+    
+## How
 
-### Support or Contact
+Se propone utilizar un gráfico de barras agrupado. Vada grupo comprenderá un programa. Cada barra será un subgrupo del atibuto seleccionado, ya sea estrato, ocupación, nivel de edades etc.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
